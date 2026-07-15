@@ -1,0 +1,107 @@
+.forecast-page{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.forecast-header{
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.forecast-header h2{
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.forecast-header p{
+    margin: 0;
+    color: #6b7280;
+}
+
+.forecast-actions{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.forecast-actions button{
+    min-width: 220px;
+}
+
+.forecast-summary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.summary-card{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+
+    transition: .3s;
+}
+
+.summary-card:hover{
+    transform: translateY(-4px);
+}
+
+.summary-card h3{
+    font-size: 34px;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.summary-card p{
+    margin: 0;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.forecast-card{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.forecast-card h4{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.forecast-card table{
+    margin-bottom: 0;
+}
+
+.forecast-card thead{
+    background: #111827;
+    color: white;
+}
+
+.forecast-card th{
+    padding: 14px;
+    text-align: center;
+}
+
+.forecast-card td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media (max-width:768px){
+
+    .forecast-actions{
+        flex-direction: column;
+    }
+
+    .forecast-actions button{
+        width: 100%;
+    }
+
+}

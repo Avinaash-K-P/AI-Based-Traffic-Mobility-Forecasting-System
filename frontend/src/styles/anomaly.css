@@ -1,0 +1,100 @@
+.anomaly-page{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.anomaly-header{
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.anomaly-header h2{
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.anomaly-header p{
+    margin: 0;
+    color: #6b7280;
+}
+
+.anomaly-actions{
+    display: flex;
+}
+
+.anomaly-actions button{
+    min-width: 240px;
+}
+
+.anomaly-summary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.summary-card{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.summary-card:hover{
+    transform: translateY(-4px);
+}
+
+.summary-card h3{
+    color: #f59e0b;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.summary-card p{
+    margin: 0;
+    color: #6b7280;
+}
+
+.anomaly-card{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.anomaly-card h4{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.anomaly-card table{
+    margin-bottom: 0;
+}
+
+.anomaly-card thead{
+    background: #111827;
+    color: white;
+}
+
+.anomaly-card th{
+    padding: 14px;
+    text-align: center;
+}
+
+.anomaly-card td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media(max-width:768px){
+
+    .anomaly-actions button{
+        width:100%;
+    }
+
+}

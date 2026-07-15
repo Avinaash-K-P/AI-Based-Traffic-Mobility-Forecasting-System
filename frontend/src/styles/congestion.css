@@ -1,0 +1,130 @@
+.congestion-page{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+/* Header */
+
+.congestion-header{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.congestion-header h2{
+    margin-bottom:8px;
+}
+
+.congestion-header p{
+    margin:0;
+    color:#6b7280;
+}
+
+/* Button */
+
+.congestion-actions{
+    display:flex;
+}
+
+.congestion-actions button{
+    min-width:220px;
+}
+
+/* Summary */
+
+.congestion-summary{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+/* Cards */
+
+.summary-card,
+.congestion-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.summary-card{
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.summary-card h3{
+
+    color:#dc3545;
+
+    font-size:34px;
+
+}
+
+.summary-card p{
+
+    margin:0;
+
+    color:#6b7280;
+
+}
+
+/* Tables */
+
+.congestion-card h4{
+
+    margin-bottom:20px;
+
+}
+
+.congestion-card table{
+
+    margin-bottom:0;
+
+}
+
+.congestion-card thead{
+
+    background:#111827;
+
+    color:white;
+
+}
+
+.congestion-card th,
+.congestion-card td{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .congestion-actions button{
+
+        width:100%;
+
+    }
+
+}

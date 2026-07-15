@@ -1,0 +1,48 @@
+.upload-page{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.upload-card,
+.upload-guidelines{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.upload-card input{
+
+    margin-top:20px;
+
+}
+
+.selected-file{
+
+    margin-top:20px;
+
+    background:#f4f6f9;
+
+    padding:15px;
+
+    border-radius:8px;
+
+}
+
+.upload-guidelines ul{
+
+    margin-top:15px;
+
+}
+
+.upload-guidelines li{
+
+    margin-bottom:8px;
+
+}

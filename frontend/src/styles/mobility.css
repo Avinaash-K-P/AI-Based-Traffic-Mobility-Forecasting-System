@@ -1,0 +1,131 @@
+.mobility-page{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.mobility-header,
+.mobility-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.mobility-header p{
+
+    margin:0;
+
+    color:#6b7280;
+
+}
+
+.mobility-actions{
+
+    display:flex;
+
+}
+
+.mobility-actions button{
+
+    min-width:250px;
+
+}
+
+.mobility-summary{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.summary-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.summary-card h3{
+
+    color:#198754;
+
+    font-size:34px;
+
+}
+
+.recommendation-box{
+
+    background:#f8f9fa;
+
+    border-left:5px solid #198754;
+
+    padding:15px;
+
+    border-radius:8px;
+
+    margin-bottom:15px;
+
+}
+
+.recommendation-box h5{
+
+    margin-bottom:8px;
+
+}
+
+.mobility-card table{
+
+    margin-bottom:0;
+
+}
+
+.mobility-card thead{
+
+    background:#111827;
+
+    color:white;
+
+}
+
+.mobility-card th,
+.mobility-card td{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+@media(max-width:768px){
+
+    .mobility-actions button{
+
+        width:100%;
+
+    }
+
+}

@@ -1,0 +1,55 @@
+.dashboard-page{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.welcome-card{
+    background:#ffffff;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.welcome-card h2{
+    margin-bottom:8px;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.stat-card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.stat-card svg{
+    font-size:34px;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.stat-card h3{
+    font-size:32px;
+    margin:10px 0;
+}
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.dashboard-card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
